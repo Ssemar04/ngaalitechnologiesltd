@@ -29,6 +29,8 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <link href="js/swiper/swiper-bundle.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -61,7 +63,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
         <a href="index.html" class="navbar-brand d-flex align-items-center">
-            <h1 class="m-0"><img class="img-fluid me-3" src="img/icon/icon-02-primary.png" alt="">Ngaali Technologies Ltd</h1>
+            <h1 class="m-0"><img class="img-fluid me-3" src="img/icon/icon-02-primary.png" alt="">Ngaali Technologies Ltd.</h1>
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -70,8 +72,8 @@
             <div class="navbar-nav mx-auto bg-light pe-4 py-3 py-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <a href="about.html" class="nav-item nav-link">About Us</a>
-                <a href="#" class="nav-item nav-link">Our Services</a>
-                <a href="#" class="nav-item nav-link">Contact Us</a>
+                <a href="service.html" class="nav-item nav-link">Our Services</a>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
             </div>
             <div class="h-100 d-lg-inline-flex align-items-center d-none">
                 <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
@@ -195,9 +197,9 @@
                                 <div class="col-sm-6">
                                     <div class="d-flex align-items-center">
                                         <div class="btn-lg-square bg-primary rounded-circle me-3">
-                                            <i class="fa fa-envelope text-white"></i>
+                                            <i class="fa fa-phone-alt text-white"></i>
                                         </div>
-                                        <h5 class="mb-0">ngaalitechnologies24</h5>
+                                        <h5 class="mb-0">+256 (0) 751 886 434</h5>
                                     </div>
                                 </div>
                             </div>
@@ -230,26 +232,45 @@
     <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-1.jpg">
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-sm-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">2684</h1>
-                    <span class="text-primary">Happy Clients</span>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="counter-item">                        
+                        <div class="counter-counting">
+                            <span class="display-4 text-white text-white fs-2 fw-bold" data-toggle="counter-up">30</span>
+                            <span class="h1 fw-bold text-white">+</span>
+                        </div>
+                        <h4 class="text-primary">Happy Clients</h4>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">5458</h1>
-                    <span class="text-primary">Successful Projects</span>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="counter-item">                        
+                        <div class="counter-counting">
+                            <span class="display-4 text-white text-white fs-2 fw-bold" data-toggle="counter-up">10</span>
+                            <span class="h1 fw-bold text-white">+</span>
+                        </div>
+                        <h4 class="text-primary">Successful Projects</h4>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">09</h1>
-                    <span class="text-primary">Years Of Experience</span>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="counter-item">                        
+                        <div class="counter-counting">
+                            <span class="display-4 text-white text-white fs-2 fw-bold" data-toggle="counter-up">3</span>
+                            <span class="h1 fw-bold text-white">+</span>
+                        </div>
+                        <h4 class="text-primary">Years Of Experience</h4>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">93</h1>
-                    <span class="text-primary">Team Members</span>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="counter-item">                        
+                        <div class="counter-counting">
+                            <span class="display-4 text-white text-white fs-2 fw-bold" data-toggle="counter-up">10</span>
+                            <span class="h1 fw-bold text-white">+</span>
+                        </div>
+                        <h4 class="text-primary">Team Members</h4>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Facts End -->
 
 
     <!-- Features Start -->
@@ -310,7 +331,7 @@
                         <img class="img-fluid" src="img/service-1.jpg" alt="">
                         <div class="d-flex align-items-center bg-light">
                             <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-01-light.png" alt="">
+                                <img class="img-fluid" src="img/ac-air-conditioner-cold-air-conditioning-svgrepo-com.svg" alt="">
                             </div>
                             <a class="h4 mx-4 mb-0" href="">AC Installation</a>
                         </div>
@@ -321,7 +342,7 @@
                         <img class="img-fluid" src="img/service-2.jpg" alt="">
                         <div class="d-flex align-items-center bg-light">
                             <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-02-light.png" alt="">
+                                <img class="img-fluid" src="img/solar-panel-svgrepo-com.svg" alt="">
                             </div>
                             <a class="h4 mx-4 mb-0" href="">Solar Enegy Systems</a>
                         </div>
@@ -332,7 +353,7 @@
                         <img class="img-fluid" src="img/service-3.jpg" alt="">
                         <div class="d-flex align-items-center bg-light">
                             <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-03-light.png" alt="">
+                                <img class="img-fluid" src="img/power-bank-svgrepo-com.svg" alt="">
                             </div>
                             <a class="h4 mx-4 mb-0" href="">Power Backup Systems</a>
                         </div>
@@ -343,7 +364,7 @@
                         <img class="img-fluid" src="img/service-4.jpg" alt="">
                         <div class="d-flex align-items-center bg-light">
                             <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-04-light.png" alt="">
+                                <img class="img-fluid" src="img/repair-svgrepo-com.svg" alt="">
                             </div>
                             <a class="h4 mx-4 mb-0" href="">Maintenance & Repair</a>
                         </div>
@@ -354,7 +375,7 @@
                         <img class="img-fluid" src="img/service-5.jpg" alt="">
                         <div class="d-flex align-items-center bg-light">
                             <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-05-light.png" alt="">
+                                <img class="img-fluid" src="img/cold-chain-svgrepo-com.svg" alt="">
                             </div>
                             <a class="h4 mx-4 mb-0" href="">Refrigeration systems</a>
                         </div>
@@ -365,7 +386,7 @@
                         <img class="img-fluid" src="img/service-6.jpg" alt="">
                         <div class="d-flex align-items-center bg-light">
                             <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-06-light.png" alt="">
+                                <img class="img-fluid" src="img/building-svgrepo-com.svg" alt="">
                             </div>
                             <a class="h4 mx-4 mb-0" href="">Building & Construction</a>
                         </div>
@@ -376,7 +397,7 @@
                         <img class="img-fluid" src="img/service-7.jpg" alt="">
                         <div class="d-flex align-items-center bg-light">
                             <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-06-light.png" alt="">
+                                <img class="img-fluid" src="img/cctv-camera-svgrepo-com.svg" alt="">
                             </div>
                             <a class="h4 mx-4 mb-0" href="">CCTV Camera Installation</a>
                         </div>
@@ -387,7 +408,7 @@
                         <img class="img-fluid" src="img/service-8.jpg" alt="">
                         <div class="d-flex align-items-center bg-light">
                             <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-06-light.png" alt="">
+                                <img class="img-fluid" src="img/electrical-svgrepo-com.svg" alt="">
                             </div>
                             <a class="h4 mx-4 mb-0" href="">Electrical Installation</a>
                         </div>
@@ -398,7 +419,7 @@
                         <img class="img-fluid" src="img/service-9.jpg" alt="">
                         <div class="d-flex align-items-center bg-light">
                             <div class="service-icon flex-shrink-0 bg-primary">
-                                <img class="img-fluid" src="img/icon/icon-06-light.png" alt="">
+                                <img class="img-fluid" src="img/inspection-svgrepo-com.svg" alt="">
                             </div>
                             <a class="h4 mx-4 mb-0" href="">Annual Inspections</a>
                         </div>
@@ -408,6 +429,64 @@
         </div>
     </div>
     <!-- Service End -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section wow fadeInUp" data-wow-delay="0.8s">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.8s" style="max-width: 500px;">
+            <h1>Our Partners</h1>
+        </div>
+
+        <div class="container"  style="margin-top: 30px;">
+  
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 2,
+                    "spaceBetween": 40
+                  },
+                  "480": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 60
+                  },
+                  "640": {
+                    "slidesPerView": 4,
+                    "spaceBetween": 80
+                  },
+                  "992": {
+                    "slidesPerView": 6,
+                    "spaceBetween": 120
+                  }
+                }
+              }
+            </script>
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide"><img src="img/partner-1.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="img/partner-2.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="img/partner-3.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="img/partner-4.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="img/partner-5.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="img/partner-6.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="img/partner-1.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="img/partner-4.png" class="img-fluid" alt=""></div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </section><!-- /Clients Section -->
 
 
     <!-- Quote Start -->
@@ -456,7 +535,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary py-3 px-5" type="submit">Send</button>
+                                    <button class="btn btn-primary py-3 px-5" type="submit">Request A Qoute</button>
                                 </div>
                             </div>
                         </div>
@@ -599,7 +678,7 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-md-6">
-                    <h1 class="text-white mb-4"><img class="img-fluid me-3" src="img/icon/icon-02-primary.png" alt="">Ngaali Technologies</h1>
+                    <h1 class="text-white mb-4"><img class="img-fluid me-3" src="img/icon/icon-02-primary.png" alt="">Ngaali Technologies Ltd.</h1>
                     <span>In line with our tradition, we make it happen, we continue to aspire for further growth and quality service to our client by embracing innovative approaches to provide engineering solutions.</span>
                 </div>
                 <div class="col-md-6">
@@ -626,8 +705,8 @@
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Quick Links</h5>
                     <a class="btn btn-link" href="about.html">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="service.html">Our Services</a>
                     <a class="btn btn-link" href="">Career</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -671,6 +750,7 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/parallax/parallax.min.js"></script>
+    <script src="js/swiper/swiper-bundle.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
